@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- box icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <header>
+    <a href="#"> 
+        <H1><i>
+            <box-icon  class="home-logo" name='code-alt' animation='flashing'rotate='180' color='#ff00d6' ></box-icon>
+        </i>
+            ARIBA <span>.</span>
+        </H1>
+    </a>
+    <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+    <label for="menu-icon"></label>
+    <nav class="nav" id="nav"> 		
+        <ul class="pt-5">
+          <li><a href="#home" target="_blank" >Home</a></li>
+          <li> <a href="#service" target="_blank">Service</a></li>
+          <li><a href="#skills" target="_blank">Skills</a></li>
+          <li><a href="#work" target="_blank">Portfolio</a></li>
+            <li>  <a href="#contact" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-heading">
+       <h1>CREATIVE WEB DEVELOPER</h1>
+      </div>
+      <p>Elevate your business by establishing a strong online presence with our expert web development services. 
+        <br/>We specialize in creating tailored websites that not only reflect your brand identity but also drive engagement and 
+        <br/>conversion, ensuring your business thrives in the digital landscape.</p>
+          <div class="home-btn">      
+         <button class="home-btn-1">Resume</button>
+        <button class="home-btn-2">Hire me</button>
+      </div>
+      <div class="home-arrow">
+        <i><box-icon name='chevrons-down' type='solid' animation='fade-down' color='#ffffff' ></box-icon></i>
+      </div>
+      <div class="home-icon">
+        <a href="#"><box-icon name='github' type='logo'   color='#ffffff' ></box-icon></a>
+        <a href="#"><box-icon name='linkedin-square' type='logo' color='#ffffff' ></box-icon></a>
+        <a href="#"><box-icon name='facebook-circle' type='logo'   color='#ffffff' ></box-icon></a>
+        <a href="#"><box-icon name='whatsapp' type='logo'  color='#ffffff' ></box-icon></a>
+      </div>
+  </section>
+   <!-- service -->
+        <div class="service" id="service">
+      
+          <div class="border-section">
+               <h1>What We Offer</h1>
+              <!-- <div class="border-outline"> -->
+                 <div class="service-content">
+                   <div class="service-div">
+                    <i class='bx bxl-figma bx-flashing' style='color:#fff'  ></i>
+                        <h2>UI Design</h2>
+                        <p>Elevate your business by establishing a strong online presence with our expert web development services.</p>
+                   </div>
+                   <div class="service-div">
+                    <i class='bx bx-code-alt bx-flashing' style='color:#fff' ></i>
+                    <h2>Frontend development</h2>
+                    <p>Elevate your business by establishing a strong online presence with our expert web development services.</p>
+              
+                   </div>
+                   <div class="service-div">
+                    <i class='bx bx-mobile bx-flashing' style='color:#fff' ></i>
+                    <h2>Responsive mobile Web</h2>
+                    <p>Elevate your business by establishing a strong online presence with our expert web development services.</p>
+              
+                   </div>
+                   <div class="service-div">
+                    <i class='bx bx-code-curly bx-flashing' style='color:#fff' ></i>
+                      <h2>Backend development</h2>
+                      <p>Elevate your business by establishing a strong online presence with our expert web development services.</p>
+            
+                   </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <!-- Skills -->
+           <div class="skills" id="skills">
+            <h1>SKILLS</h1>
+            <div class="skills-icon">
+            <div class="skill-div1">
+              <i class='bx bxl-html5 '  ></i>
+            <i class='bx bxl-css3'  ></i>
+            <i class='bx bxl-tailwind-css' ></i>
+            <i class='bx bxl-wordpress' ></i>
+            <i class='bx bxl-javascript' ></i>
+            <i class='bx bxl-bootstrap'></i>
+          </div>
+          <div class="skills-div2">
+            <i class='bx bxl-react' ></i>
+            <i class='bx bxl-mongodb'></i>
+            <i class='bx bxl-nodejs'></i>
+            <i class='bx bxl-figma'></i>
+
+          </div>
+            </div>
+
+           </div>
+       <!-- work  -->
+        <div class="work" id="work">
+          <div class="style" id="ina">
+            <p></p>
+          </div>
+          <h1>PORTFOLIO</h1>
+          <div class="style right" id="ani">
+            <p></p>
+          </div>
+          <div class="work-section">
+            <div class="work-card-1">
+               <div class="work-div">
+                <section class="property">
+
+                  <div class="property-content">
+                             <div class="work-container">
+                                 <article class="work-card">
+                                     <img src="data:image/jpeg;base64,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" class="work-img" height="167px" width="253px" alt="">
+                                     <div class="work-data">
+                                         <h2 class="work-price"> 
+                                             <span><i class='bx bxl-github' style='color:#ff53bb'  ></i></span><a href="">Live Demo</a>
+                                         </h2>
+                                         <h3 class="work-tittle">
+                                             Gulberg Town Plaza
+                                         </h3>
+                                         <p class="work-describtion">
+                                             street gulberg plaza ofmiraflores
+                                             lima peru Av .Sol #3432
+                                         </p>
+                                     </div>
+                                 </article>
+             
+                                 <article class="work-card">
+                                     <img src="data:image/jpeg;base64,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" class="work-img" height="167px" width="253px" alt="">
+                                     <div class="work-data">
+                                         <h2 class="work-price"> 
+                                            <span><i class='bx bxl-github' style='color:#ff53bb'  ></i></span><a href="">Live Demo</a>
+                                         </h2>
+                                         <h3 class="work-tittle">
+                                             Dollmeen mall karachi
+                                         </h3>
+                                         <p class="work-describtion">
+                                             street Dollmeen mall ofmiraflores
+                                             lima peru Av .Sol #19823
+                                         </p>
+                                     </div>
+                                 </article>
+             
+                                 <article class="work-card">
+                                     <img src="data:image/jpeg;base64,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" class="work-img" height="167px" width="253px" alt="">
+                                     <div class="work-data">
+                                         <h2 class="work-price"> 
+                                          <span><i class='bx bxl-github' style='color:#ff53bb'  ></i></span><a href="">Live Demo</a>
+                                         </h2>
+                                         <h3 class="work-tittle">
+                                             Ocean City Fasilabad
+                                         </h3>
+                                         <p class="work-describtion">
+                                             street no 43 near Ocean Town
+                                              ndjd jju sf .Sol #1298
+                                         </p>
+                                     </div>
+                                 </article>
+                             </div>
+                             <div class="property-content">
+                                 <div class="work-container">
+                                     <article class="work-card">
+                                         <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBAQEBAPDw8PDw0PEA8PDQ8PDxYPFREWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALQBGQMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBAUH/8QALxAAAgMAAQMCBQMDBQEAAAAAAAECAxEhMUFxUYEEYZGx4RIiMhOh8BVSYtHxFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A/aypFwuATCWTUVr4SE5qK1vEj5ls3N6+EuiAltrseviK6L/O52rrFdZ3jEBGJrSNkA0jWmNM6BtyI2ZbONlgHSVhYR+voZqrfV9fT0O/TyBf4+TMI71EI6dQKZc8aWN7vK6LPUTb4xbyt5zj1NAUk5YSUsOSTkwCTkzU5ZwvdicsWL3ZiIFijrAwjrFAUEAFBABQQoADSSlnICUsPPKWiUtIkASN/wBF/I7V155NgYJOSS19CykktfQ8NsnJ/LsgMWzc3r4S6I3Cs1GJ0UQJGJouEAhls02c2A0N4OhxtsAWWnSmru/5dl6fkUU5y/5dl6fk9HTyA6L5khHRGOnQCkfTjhgJAVElLBKWHNJtgEm2Wc84XuyTmksXuzhugbXJ0RmKOsYgarR0IAKZNBgZAIBQNJKWAJSw4SlolLSJAEj01155FdeeRbaorX7ICW2qK1+yPN/9j9F/c89tjb1nPQPZZNyfy7IKJUjaiBIo1hQBDLNHOTAkmQuHKyQGbJnSmnOX/LsvT8mqqc5f8uy9PydW88gR8eSRQSNgUEKBSOWEcsMJNgMbLOaS+XdknNJfLuzzNt+PQC65P5HWMSQidq4gWETqQoApABQ2RsgAEDkAk8OMpaJS0iQBI9FdeeRVXnkttqitfsgJbaorX7I+dbY5PWWyz9T1+3/Qrhub0XQoVVby+h3/AEr0X9gyEHZIDQAGgAZkyJAkmBmbNV15y+vZehuEM5fXsiOQBv6mUgaAoIUCkbwNmM0CrWJzSX3YlJJHB8+AMy5fy9DrGIjE6wiBYQOhCgUAAUjYbIAAI3gFk8OMpaJPSJAEj01155FdeeRbaorX7ICW2qK1+yPn2WOT1/58iW2OT1lrhvL6LoUK4by+i4O4IQAVI1oGgAAK0WMRIDLNRjnL6ljHOX1MTkAnIwQoFKQAUNkZEgBZSwNnN8gZfPg3GJUjaiAjE6EAFKQAUNkbAAAjYByOUnobCWgEj01155FdeeRbYorX9AFtiitfsj5ttjb1i2xyestde8voUKq95fQ7gjZAKkWMQwICNk0DqbjEkInQAEs5NHKyYEsmcigAiFAAEKkAK2NIkBCpGlErAJFIAKUgApTIAoIGwDZzbDYitAJaemuGCuGC2xRWv2QC2xRWv2R862xt6xbY29Yqr3l9ChVXvL6HdgjIDNJCMQAbIwzMpAQn6jEpGv6Uv9rA9xpIJGLJgSyZxDYAAAAQFAAFSAqRdMSn6GVyB0/UCIAUpABSmJSNAUEABsw2GyxjoEjHT0whgrhgtsUVr9kAtsUVr9kfNtsbesttjk9Yrr3l9ChVXvL6HcEIBqK7iMSsAZbKznKQByOUpEnM9Xwvw+ful17L0/IGvhqM/dLr2Xp+Tv8ArRmUt8EwDVkzztllLTIAAAXSAoAAjlgF3DnKw5zsMVpyf/EI6w58HZESAVSkAFJOX1MTs7LqSAG4I2EAhplsMsY6FIxbPTCGCEMJbYorX7IBbYorX7I+dZY29f8A4LLG3rLXXvL6FCqveX0OwIQDcYiMSsAZbK2c5SAzORxnMs5Hq+F+Gz90uvZen5AfCfDZ+6XXsvT8naUt8CUt8EAqAKB5wAAAKAQBicgEpHnttwltmHCmp2PXxBdX6/JBG6YOb3pBd/X5I96WcLhCKS4XCXYBQAADnbbnC6/Yl1ucLr9jnXADcIneKMwiaCKRgsIaFIRbPTCOFjHDNtiitfsgFtiitfsj51ljk9Ytsbestde8voUK695fQ7kIyCtmoxEImmwDMthsjYGZM4ykakz0fD0Z+6XX7AT4b4fP3S69l6fk6TlvgTnvgiAI0RGsAFCNYB5ACgADMmBJSPPZM3ORyhU5Pn+K/v8AII51Uub54gur9fkj6EUksXCXRIRSXC4S6IoVAUgA5XW5wuv2LbZ2XX7GK6wM11nojERiaCABqENClcNPTGOCMcM22KK1/QBbYorWfPtsbesW2NvWK4by+hQqr3l9DswyEA3CPqWEO7NAGZYbIwI2YmzTO1VWcvr9gM005y+v2LOe+BOe+CJAEaRDSAI0kRItk1Fa/wAsCXWqC1/Tu2eL/UZf7F9WZls3r6dkb/pr0A6gAAcZM6TZhR3wBzjX+rwehIAAVofcAQzOfp1LJkjADEIHVRKAgAarhvgKVw3wemKwRWGbbFFa/ZALbFFa/ofPssbesW2NvWK4by+hUK4by+h2BCKM6Qh3YhDuzbAjIwyMCMyytnauvOWBKq85ZJz3wSye+DKAqKgioCo0kRI3KSitYEnNRWs8Utm9fTsjeOb19DqopAYjA1+hGgBzQAAxLqaAAAAASTKAEUUAACAI1BcnqSACqfNtm23vzAAzWtaPQQAGaqXf0AA6MjKAMMjIAOlEe4vl2KAORpAAU0gAOsUeST/VLn1aAA6oFAEAAH//2Q==" class="work-img" height="167px" width="253px" alt="">
+                                         <div class="work-data">
+                                             <h2 class="work-price"> 
+                                              <span><i class='bx bxl-github' style='color:#ff53bb'  ></i></span><a href="">Live Demo</a>
+                                             </h2>
+                                             <h3 class="work-tittle">
+                                                  Monkey Tower
+                                             </h3>
+                                             <p class="work-describtion">
+                                                 street gulberg plaza ofmiraflores
+                                                 lima peru Av .Sol #3432
+                                             </p>
+                                         </div>
+                                     </article>
+                 
+                                     <article class="work-card">
+                                         <img src="data:image/jpeg;base64,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" class="work-img" height="167px" width="253px" alt="">
+                                         <div class="work-data">
+                                             <h2 class="work-price"> 
+                                              <span><i class='bx bxl-github' style='color:#ff53bb'  ></i></span><a href="">Live Demo</a>
+                                             </h2>
+                                             <h3 class="work-tittle">
+                                                 village of models
+                                             </h3>
+                                             <p class="work-describtion">
+                                                 street cdsfdfsfc ofmiraflores
+                                                 lima peru Av .Sol #19823
+                                             </p>
+                                         </div>
+                                     </article>
+                 
+                                     <article class="work-card">
+                                         <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBAQEBAPDw8PDw0PEA8PDQ8PDxYPFREWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALQBGQMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBAUH/8QALxAAAgMAAQMCBQMDBQEAAAAAAAECAxEhMUFxUYEEYZGx4RIiMhOh8BVSYtHxFP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A/aypFwuATCWTUVr4SE5qK1vEj5ls3N6+EuiAltrseviK6L/O52rrFdZ3jEBGJrSNkA0jWmNM6BtyI2ZbONlgHSVhYR+voZqrfV9fT0O/TyBf4+TMI71EI6dQKZc8aWN7vK6LPUTb4xbyt5zj1NAUk5YSUsOSTkwCTkzU5ZwvdicsWL3ZiIFijrAwjrFAUEAFBABQQoADSSlnICUsPPKWiUtIkASN/wBF/I7V155NgYJOSS19CykktfQ8NsnJ/LsgMWzc3r4S6I3Cs1GJ0UQJGJouEAhls02c2A0N4OhxtsAWWnSmru/5dl6fkUU5y/5dl6fk9HTyA6L5khHRGOnQCkfTjhgJAVElLBKWHNJtgEm2Wc84XuyTmksXuzhugbXJ0RmKOsYgarR0IAKZNBgZAIBQNJKWAJSw4SlolLSJAEj01155FdeeRbaorX7ICW2qK1+yPN/9j9F/c89tjb1nPQPZZNyfy7IKJUjaiBIo1hQBDLNHOTAkmQuHKyQGbJnSmnOX/LsvT8mqqc5f8uy9PydW88gR8eSRQSNgUEKBSOWEcsMJNgMbLOaS+XdknNJfLuzzNt+PQC65P5HWMSQidq4gWETqQoApABQ2RsgAEDkAk8OMpaJS0iQBI9FdeeRVXnkttqitfsgJbaorX7I+dbY5PWWyz9T1+3/Qrhub0XQoVVby+h3/AEr0X9gyEHZIDQAGgAZkyJAkmBmbNV15y+vZehuEM5fXsiOQBv6mUgaAoIUCkbwNmM0CrWJzSX3YlJJHB8+AMy5fy9DrGIjE6wiBYQOhCgUAAUjYbIAAI3gFk8OMpaJPSJAEj01155FdeeRbaorX7ICW2qK1+yPn2WOT1/58iW2OT1lrhvL6LoUK4by+i4O4IQAVI1oGgAAK0WMRIDLNRjnL6ljHOX1MTkAnIwQoFKQAUNkZEgBZSwNnN8gZfPg3GJUjaiAjE6EAFKQAUNkbAAAjYByOUnobCWgEj01155FdeeRbYorX9AFtiitfsj5ttjb1i2xyestde8voUKq95fQ7gjZAKkWMQwICNk0DqbjEkInQAEs5NHKyYEsmcigAiFAAEKkAK2NIkBCpGlErAJFIAKUgApTIAoIGwDZzbDYitAJaemuGCuGC2xRWv2QC2xRWv2R862xt6xbY29Yqr3l9ChVXvL6HdgjIDNJCMQAbIwzMpAQn6jEpGv6Uv9rA9xpIJGLJgSyZxDYAAAAQFAAFSAqRdMSn6GVyB0/UCIAUpABSmJSNAUEABsw2GyxjoEjHT0whgrhgtsUVr9kAtsUVr9kfNtsbesttjk9Yrr3l9ChVXvL6HcEIBqK7iMSsAZbKznKQByOUpEnM9Xwvw+ful17L0/IGvhqM/dLr2Xp+Tv8ArRmUt8EwDVkzztllLTIAAAXSAoAAjlgF3DnKw5zsMVpyf/EI6w58HZESAVSkAFJOX1MTs7LqSAG4I2EAhplsMsY6FIxbPTCGCEMJbYorX7IBbYorX7I+dZY29f8A4LLG3rLXXvL6FCqveX0OwIQDcYiMSsAZbK2c5SAzORxnMs5Hq+F+Gz90uvZen5AfCfDZ+6XXsvT8naUt8CUt8EAqAKB5wAAAKAQBicgEpHnttwltmHCmp2PXxBdX6/JBG6YOb3pBd/X5I96WcLhCKS4XCXYBQAADnbbnC6/Yl1ucLr9jnXADcIneKMwiaCKRgsIaFIRbPTCOFjHDNtiitfsgFtiitfsj51ljk9Ytsbestde8voUK695fQ7kIyCtmoxEImmwDMthsjYGZM4ykakz0fD0Z+6XX7AT4b4fP3S69l6fk6TlvgTnvgiAI0RGsAFCNYB5ACgADMmBJSPPZM3ORyhU5Pn+K/v8AII51Uub54gur9fkj6EUksXCXRIRSXC4S6IoVAUgA5XW5wuv2LbZ2XX7GK6wM11nojERiaCABqENClcNPTGOCMcM22KK1/QBbYorWfPtsbesW2NvWK4by+hQqr3l9DswyEA3CPqWEO7NAGZYbIwI2YmzTO1VWcvr9gM005y+v2LOe+BOe+CJAEaRDSAI0kRItk1Fa/wAsCXWqC1/Tu2eL/UZf7F9WZls3r6dkb/pr0A6gAAcZM6TZhR3wBzjX+rwehIAAVofcAQzOfp1LJkjADEIHVRKAgAarhvgKVw3wemKwRWGbbFFa/ZALbFFa/ofPssbesW2NvWK4by+hUK4by+h2BCKM6Qh3YhDuzbAjIwyMCMyytnauvOWBKq85ZJz3wSye+DKAqKgioCo0kRI3KSitYEnNRWs8Utm9fTsjeOb19DqopAYjA1+hGgBzQAAxLqaAAAAASTKAEUUAACAI1BcnqSACqfNtm23vzAAzWtaPQQAGaqXf0AA6MjKAMMjIAOlEe4vl2KAORpAAU0gAOsUeST/VLn1aAA6oFAEAAH//2Q==" class="work-img" height="167px" width="253px" alt="">
+                                         <div class="work-data">
+                                             <h2 class="work-price"> 
+                                              <span><i class='bx bxl-github' style='color:#ff53bb'  ></i></span><a href="">Live Demo</a>
+                                             </h2>
+                                             <h3 class="work-tittle">
+                                                 Model town
+                                             </h3>
+                                             <p class="work-describtion">
+                                                 street no 43 near Ocean Town
+                                                  ndjd jju sf .Sol #1298
+                                             </p>
+                                         </div>
+                                     </article>
+                                 </div>
+                         </div>
+                     </section>
+          </div>
+        </div>
+        <!-- res-mob  -->
+         <div class="res-mob">
+          
+         </div>
+  <!-- about  -->
+  <section class="contact" id="contact">
+    <div id="main">
+      <div id="top">
+          <h1 id="top-h1">CONTACT</h1>
+      </div>
+      <div id="center">
+        <div class="content">
+          <div class="contact-section">
+         <h2>CONTACT ME</h2>
+        <div class="form-div">
+         <form action="">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="email">
+          <input type="number" name="" id="" placeholder="Your Number">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+         </form>
+        </div>
+         <footer class="footer">
+          <div class="social">
+            <a href="#"><box-icon name='github' type='logo'   color='#01011b' ></box-icon></a>
+            <a href="#"><box-icon name='linkedin-square' type='logo' color='#01011b' ></box-icon></a>
+            <a href="#"><box-icon name='facebook-circle' type='logo'   color='#01011b' ></box-icon></a>
+            <a href="#"><box-icon name='whatsapp' type='logo'  color='#01011b' ></box-icon></a>
+          </div>
+          <div class="list">
+            
+              <a href="#">Service</a>
+           
+              <a href="#">Skills</a>
+           
+              <a href="#">Portfolio</a>
+            
+              <a href="#">Contact</a>
+          </div>
+          <p class="copyright0">
+            @ Ariba Baig | All Right Reserved
+          </p>
+         </footer>
+      </div>
+      
+      
+        </div>
+        
+
+       
+
+      </div>
+      <div id="bottom">
+          <h1 id="bottom-h1">CONTACT</h1>
+      </div>
+  </div>
+  </section>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ 
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="gsap.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
