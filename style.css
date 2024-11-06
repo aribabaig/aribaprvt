@@ -24,6 +24,7 @@
 }
 body{
   background-color: var(--bg-1-);
+  scroll-behavior: smooth; 
 }
 a h1{
  margin: 40px;
